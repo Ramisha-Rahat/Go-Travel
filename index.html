@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Travel</title>
+    <script src="https://kit.fontawesome.com/bc7ab49df1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+           <div class="nav-bar">
+              <div class="logo">
+               <button id="menubtn"><i class="fa-solid fa-bars"></i></button>
+                  <h3>GoTravel</h3>
+              </div>   
+              <div>
+                <button id="btn1">Sign Up</button>
+              </div>
+           </div>
+    </header>
+    <!--Side menu-->  
+    <div id="side-menu">
+      <h2><a>Home</a></h2>
+      <h2><a>Offers</a></h2>
+      <h2><a>Places</a></h2>
+      <h2><a>Client Experience</a></h2>
+      <h2><a>Services</a></h2>
+      <h2><a>NewsLetter</a></h2>
+      <h2><a>Join Us</a></h2>
+    </div>
+     <!--Side menu-->  
+     <div id="side-menu">
+      <div id="close">
+        <button id=closebtn><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <h2><a href="#Home-section">Home</a></h2>
+      <h2><a href="#offer-section">Offers</a></h2>
+      <h2><a href="#tour-section">Places</a></h2>
+      <h2><a href="#client-section">Client Experience</a></h2>
+      <h2><a href="#services-section">Services</a></h2>
+      <h2><a href="#newsletter-section">NewsLetter</a></h2>
+      <h2><a href="#footer-section">Join Us</a></h2>
+    </div>
+    <!--Main page-->
+    <main>
+        <div class="main-page">
+            <div class="main-image">
+               <img src="coverimg.jpg" alt="coverimage">
+                <div class="image-text">
+                <h1>Travel With Us And See The Most Beautiful Places In Asia</h1>
+                <button id="Tour-btn">Take Tour</button>
+                </div>
+            </div>
+        <!--Sign up form-->
+           <div class="signup-form">
+            <form class="Account-form" method="post"  onsubmit="submitForm(event)">
+                <div class="form-1">
+                <label for="name">YOUR NAME</label>
+                  <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-radio">
+             <label>Gender:</label><br>
+             <label for="Male">male</label>
+             <input type="radio" id="male" name="gender" value="male" required>
+              <lable for="female">female</lable>
+             <input type="radio" id="female" name="gender" value="female" required>
+            </div>
+            <div class="form-1">
+             <label for="e-mail">Email</label>
+             <input type="email" id="email" name="e-mail" required>
+            </div>
+            <div class="form-1">
+             <label for="number">Phone Number</label>
+             <input type="number" id="number" name="number" required>
+            </div>
+            <button id="submit-btn">Submit</button>
+            </form>
+            </div>
+            <!--form end-->
+        </div>
+    </main>
+    <!--Section1 on page-->
+    <section id="offer-section">
+      <div class="tour-sec">
+         <div class="sec1-img">
+          <img src="maldives1.jpg" alt="maldives">
+         </div>
+         <div class="sec1-text">
+            <h2><a>EXCLUSIVE OFFER</a></h2><br>
+            <h4>It is best time to take a tour
+            Whether you're seeking the vibrant colors of autumn, the sun-drenched beaches of summer, or the serene landscapes of winter, we'll provide insights into the ideal seasons to make the most of your travel experience in Maldives. Your food, travel, Visits will all be provided by us.</h4><br>
+            <h5>3 Days / 4 Nights</h5><br>
+            <h3>$1000</h3><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i><br>
+            <button id="booking-btn">Book Now<i class="fa-solid fa-arrow-right"></i></button> 
+         </div>
+      </div>
+   </section>
+      <!--Section 2- places --> 
+        <div class="sec2-h1">
+        <h1><a>Our Exciting And Beautiful Tour Places</a></h1>
+        </div>   
+        <div class="sec2">
+               <div class="box-container">
+                 <img src="fairy medows.jpg" alt="Pakistan">
+                 <div class="box-text">
+                  <h2><a>Pakistan</a></h2></div>
+               </div>
+               <div class="box-container">
+                <img src="shimla.jpg" alt="India">
+                 <div class="box-text">
+                  <h2><a>India</a></h2></div>
+                 </div>
+               <div class="box-container">
+                <img src="china.jpg" alt="China">
+                 <div class="box-text">
+                  <h2><a>China</a></h2></div>
+               </div>
+               <div class="box-container">
+                <img src="thailand.jpg" alt="Thailand">
+                 <div class="box-text">
+                  <h2><a>Thailand</a></h2></div>
+               </div>
+               <div class="box-container">
+                <img src="japan.jpg" alt="japan">
+                <div class="box-text">
+                 <h2><a>Japan</a></h2></div>
+              </div>
+              <div class="box-container">
+               <img src="south korea.jpg" alt="South Korea">
+                <div class="box-text">
+                 <h2><a>South Korea</a></h2></div>
+                </div>
+              <div class="box-container">
+               <img src="turkey.jpg" alt="Turkey">
+                <div class="box-text">
+                 <h2><a>Turkey</a></h2></div>
+              </div>
+              <div class="box-container">
+               <img src="malaysia.jpg" alt="Malaysia">
+                <div class="box-text">
+                 <h2><a>Malaysia</a></h2></div>
+              </div>
+          </div>
+     
+
+
+
+
+
+
+          <!--Clients experience-->
+          <div class="client-exp"><h1>What our Client Says</h1></div>
+          <div class="client">
+            <div class="client-text">
+              <h1 id="sliderText"></h1>
+              <button id="sliderButton">Next</button>
+           </div>
+            <div class="image-container">
+               <img id="sliderImage" src="client1.jpg" alt="Image 1">
+            </div>
+         </div>
+
+
+
+
+   
+         <div class="slide-show">
+            <h1>Services</h1>
+         </div>
+
+         <section class="services">
+            <div class="service-wrapper">
+            <div class="service-cards">
+               <img src="slideshowimg1.jpg" alt="service1">
+               <div class="service-content">
+                  <h4>Addu Atoll,MALDIVES</h4>
+                  <p>Surrender to the allure of Maldives Beaches, a tropical paradise surrounded by torquiose waters and coral reefs</p>
+                     <div class="service-rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                     </div>
+                  </div>
+               </div>
+
+            <div class="service-cards">
+               <img src="slideshowimg2.jpg" alt="service1">
+               <div class="service-content">
+                  <h4>Phuket, THAILAND</h4>
+                  <p>Experience the enchanting allure of Phuket's beaches as you gather around a mesmerizing bonfire, casting a warm glow against the backdrop of Thailand's vibrant nightlife and the gentle lapping of waves along its sandy shores.</p>
+                     <div class="service-rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half-stroke"></i><br></span>
+                     </div>
+                  </div>
+               </div>
+
+            <div class="service-cards">
+               <img src="slideshowimg3.jpg" alt="service1">
+               <div class="service-content">
+                  <h4>Sipadan Island,MALAYSIA</h4>
+                  <p>Divers are captivated by the diverse ecosystem, including the famous Barracuda Point, making it a top destination for underwater enthusiasts worldwide.</p>
+                     <div class="service-rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                     </div>
+                  </div>
+               </div>
+        
+
+            <div class="service-cards">
+               <img src="slideshowmimg4.jpg" alt="service1">
+               <div class="service-content">
+                  <h4>Beijing, CHINA</h4>
+                  <p>a dynamic blend of ancient history and modern innovation. Home to iconic landmarks like the Forbidden City and the Great Wall, the city pulsates with cultural richness. Amidst its historic treasures, Beijing embraces modernity with skyscrapers, vibrant markets, and a thriving arts scene, offering a captivating glimpse into the heart of contemporary China.</p>
+                     <div class="service-rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half-stroke"></i><br></span>
+                     </div>
+                  </div>
+            </div>
+
+            <div class="service-cards">
+               <img src="slideshowimg5.jpg" alt="service1">
+               <div class="service-content">
+                  <h4>Gyeongbokgung Palace, SOUTH KOREA</h4>
+                  <p> From the iconic Geunjeongjeon Hall to the breathtaking Bukhansan Mountains backdrop, immerse yourself in a journey through Korea's rich royal heritage</p>
+                     <div class="service-rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                     </div>
+                  </div>
+               </div>
+           
+
+            <div class="service-cards">
+               <img src="slideshowimg6.jpg" alt="service1">
+               <div class="service-content">
+                  <h4>Kyoto, JAPAN</h4>
+                  <p>A city where ancient traditions seamlessly blend with modern life, Kyoto invites you to wander through historic streets, experience the tranquility of bamboo groves, and witness the beauty of cherry blossoms in spring, offering a captivating glimpse into Japan's cultural heart.</p>
+                     <div class="service-rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                     </div>
+                  </div>
+               </div>
+               </div>
+          </section>
+   
+      
+
+          <!--news section-->
+          
+         
+          <section class="news-sec">
+          <div class="newsletter">
+                       <h1>Sign Up to our Newsletter</h1>
+                       <h3>Join our community of avid travelers and receive regular doses of wanderlust straight to your inbox.</h3>
+                       <form>
+                        <div class="input-container">
+                       <input type="text" placeholder="Enter Your Email">
+                       <button id="sb-btn">Submit</button>
+                       </div>
+                     </form>
+          </div>
+          </section>
+
+
+          <!--footer-->
+          <section class="footer-sec">
+            <div class="footer">
+               <div class="footer1">
+                  <h1>Go Travel</h1>
+                  <h3>Discover a world of endless possibilities as we curate the best in travel, from hidden gems to iconic landmarks.</h3>
+                  <div class="social-handles">
+                  <a id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                  <a id="instagram"><i class="fa-brands fa-instagram"></i></a>
+                  <a id="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                  <a id="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+               </div>
+               </div>
+               <div class="footer2">
+                  <h1>Quick Links</h1>
+                  <h3><a>Explore Destination</a></h3>
+                  <h3><a>Exclusive Offers</a></h3>
+                  <h3><a>Travel tips and Guides</a></h3>
+                  <h3><a>Book Your Adventure</a></h3>
+                  <h3><a>Join Our Community</a></h3>
+               </div>
+               <div class="footer3">
+                  <h1>About Company</h1>
+                  <h3><a>About Us</a></h3>
+                  <h3><a>Our Team</a></h3>
+                  <h3><a>Terms And Condition</a></h3>
+                  <h3><a>Privacy Policy</a></h3>
+               </div>
+               <div class="footer4">
+                  <h1>Contact Us</h1>
+                  <h3><a>Customer Support</a></h3>
+                  <h3><a>Business Inquiries</a></h3>
+               </div>
+            </div>
+          </section>
+          
+          <div class="lastline">
+            Copyright © 2024 Ramisha Rahat. All rights reserved.
+          </div>
+    <script src="index.js"></script>
+</body>
+</html> 
